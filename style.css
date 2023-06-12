@@ -1,0 +1,20 @@
+.team{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+body{
+    background-color: blanchedalmond;
+}
+.mycard{
+    background-color: white;
+    text-align: center;
+}
+p{
+    margin-bottom: 15px;
+}
+h4{
+    margin-top: 15px;;
+    font-family: 'Playfair Display', serif;
+    color: grey;
+}
+

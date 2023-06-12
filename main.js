@@ -1,4 +1,4 @@
-const unorderedList = document.querySelector('ul');
+const card = document.querySelector('.team');
 
 
 const team = [
@@ -38,13 +38,13 @@ let TeamList = '';
 
 for(i = 0 ; i < team.length; i++){
     const teamMember = team[i];
-    TeamList +=`<li> 
-    <p><img src=img/${teamMember.img}></p>
-    <p>${teamMember.Name}</p>
+    TeamList +=` <div class="mycard">
+    <img src=img/${teamMember.img}>
+    <h4>${teamMember.Name}</h4>
     <p>${teamMember.Role}</p>
-     </li>`
+     </div>`
 
 }
 
-unorderedList.innerHTML=TeamList;
+card.innerHTML=TeamList;
 
