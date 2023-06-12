@@ -39,9 +39,9 @@ let TeamList = '';
 for(i = 0 ; i < team.length; i++){
     const teamMember = team[i];
     TeamList +=`<li> 
-    <p>"${teamMember.img}"</p>
-    <p>"${teamMember.Name}"</p>
-    <p>"${teamMember.Role}"</p>
+    <p><img src=img/${teamMember.img}></p>
+    <p>${teamMember.Name}</p>
+    <p>${teamMember.Role}</p>
      </li>`
 
 }
