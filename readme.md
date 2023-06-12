@@ -8,4 +8,5 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 --
 
 - Creo l'array con le informazioni fornite.
-
+- Creo un ciclofor dove inseriro usando il template literal la stringa da inserire nel markup.
+- Miglioro il layout con css.
